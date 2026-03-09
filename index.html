@@ -7,10 +7,36 @@
     <title>Formulário</title>
 </head>
 <body class="bg-red-500">
-    <header class="h-[20vh] bg-red-50">
-        <h1 class="text-[45px] text-white text-center align-baseline ">Criar Conta</h1>
+    <header class="h-[20vh] bg-red-50 flex">   
+        <h1 class="text-[45px] text-white mt-[60px] ml-[75px] ">Criar Conta</h1>
     </header>
-    <main class="h-[60vh]"></main>
-    <footer class="h-[20vh] bg-red-50"></footer>
+    <main class="h-[60vh]">
+        <div id="logos">
+            <div>
+                <img src="./img/logo-facebook.svg" alt="facebook-logo">
+            </div>
+            <div>
+                <img src="./img/logo-google.svg" alt="google-logo">
+            </div>
+            <div>
+                <img src="./img/logo-linkedin.svg" alt="linkedin-logo">
+            </div>
+        </div>
+        <div id="cadastre-text">
+            <p>ou cadastre o seu email</p>
+        </div>
+        <div id="cadastrar">
+            <input type="text" id="nome">
+            <input type="text" id="email">
+            <input type="text" id="senha">
+            <button id="botao-cadastrar">Cadastar</button>
+        </div>
+    </main>
+    <footer class="h-[20vh] bg-red-50">
+        <div id="login">
+            <p>Já tem conta?</p>
+            <p>Login</p>
+        </div>
+    </footer>
 </body>
 </html>
