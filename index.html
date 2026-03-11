@@ -7,36 +7,36 @@
     <title>Formulário</title>
 </head>
 <body class="bg-red-500">
-    <header class="h-[20vh] bg-red-50 flex">   
+    <header class="h-[20vh] bg-red-500 flex">   
         <h1 class="text-[45px] text-white mt-[70px] ml-[75px] ">Criar Conta</h1>
     </header>
     <main class="h-[60vh]">
-        <div class="flex justify-center gap-[20px] mt-[30px]" id="logos">
-            <div class="size-[45px] bg-white rounded-[40px] flex items-center justify-center" id="facebook">
+        <div class="flex justify-center gap-[20px] mt-[30px]">
+            <div class="size-[45px] bg-white rounded-[40px] flex items-center justify-center shadow-xl/30">
                 <img src="./img/logo-facebook.svg" alt="facebook-logo">
             </div>
-            <div class="size-[45px] bg-red-500 rounded-[40px] shadow-xl/70 flex items-center justify-center" id="google">
+            <div class="size-[45px] bg-red-500 rounded-[40px] shadow-xl/30 flex items-center justify-center">
                 <img src="./img/logo-google.svg" alt="google-logo">
             </div>
-            <div class="size-[45px] bg-white rounded-[40px] flex items-center justify-center" id="linkedin">
+            <div class="size-[45px] bg-white rounded-[40px] flex items-center justify-center shadow-xl/30">
                 <img src="./img/logo-linkedin.svg" alt="linkedin-logo">
             </div>
         </div>
-        <div id="cadastre-text flex">
-            <p class="text-white text-[15px] text-center">ou cadastre o seu email</p>
+        <div class="mt-[30px]">
+            <p class="text-white text-[15px] text-center font-light">ou cadastre o seu email</p>
         </div>
-        <div id="cadastrar">
-            <input type="text" id="nome">
-            <input type="text" id="email">
-            <input type="text" id="senha">
-            <button id="botao-cadastrar">Cadastar</button>
+        <div class="flex flex-col gap-[15px] items-center mt-[20px]">
+            <input type="text" placeholder="Nome" class="w-[240px] h-[35px] bg-white rounded-[2px]">
+            <input type="text" placeholder="Email" class="w-[240px] h-[35px] bg-white rounded-[2px]">
+            <input type="text" placeholder="Senha" class="w-[240px] h-[35px] bg-white rounded-[2px]">
+            <button class="h-[40px] w-[170px] bg-red-500 rounded-[30px] text-white border-[2px] border-white ">CADASTRAR</button>
+        </div>
+        <div class="flex text-center justify-center mt-[30px]">
+            <p class="text-white font-light">Já tem conta?</p>
+            <p class="text-white font-semibold">Login</p>
         </div>
     </main>
-    <footer class="h-[20vh] bg-red-50">
-        <div id="login">
-            <p>Já tem conta?</p>
-            <p>Login</p>
-        </div>
+    <footer class="h-[20vh] bg-red-500">
     </footer>
 </body>
 </html>
